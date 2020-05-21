@@ -49,10 +49,10 @@ void main(void)
 		
 		sommaE = sommaE + eta;
 	}
-	//calcolo la media dell'et‡ dei pazienti
+	//calcolo la media dell'et√† dei pazienti
 	mediaE = sommaE / N;
 	
-	printf("cognome\t sesso\t eta'\t febbre: \r\n");
+	printf("cognome\t\tsesso\t eta'\t febbre: \r\n");
 	
 	//stampo tutti i dati raccolti in input
 	for(i =0; i<N;i++)
@@ -99,7 +99,7 @@ void main(void)
 	int flag;
 	int comp = 0;
 	char cognomeCercato[50];
-	//input cognome e lo cerco nella lista se non Ë presente lo dico
+	//input cognome e lo cerco nella lista se non √® presente lo dico
 	puts("Inserire il cognome del paziente da cercare: ");
 		scanf("%s", cognomeCercato);
 	
